@@ -1,0 +1,53 @@
+body{
+	background: url('../Imgs/mainBg.jpg');
+	background-size: cover;
+	height: 100%;
+	color: white;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.data{
+text-shadow: 1px 2px 5px grey;
+font-size: 200%;
+margin-top: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.navBar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.navBar img{
+	height: 100%;;
+	width: 100px;
+	padding-left: 10px;
+	padding: 0px
+}
+.tags{
+	display: flex;
+	margin-right:10%;
+}
+.logo{
+	margin-left: 5%;
+
+}
+.tags h3{
+	margin-left: 10px;
+	padding: 0.3em
+}
+
+.tags a{
+	
+	color:white;
+	text-decoration: none;
+
+}
+.tags h3:hover{
+	background:rgba(0,0,0,0.1);
+}
